@@ -34,7 +34,7 @@
         display: none;
     }
     .right-co {
-        width: 78%;
+        width: 80%;
     }
     .prof {
         position: absolute;
@@ -49,5 +49,6 @@
         right: 50%;
         top: 70%;
         transform: translate(-50%,-50%);
+        width: 80%;
     }
 }
