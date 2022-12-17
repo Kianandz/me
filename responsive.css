@@ -6,7 +6,7 @@
     .back-vid {
         width: 120%;
         position: relative;
-        right: 60px;
+        right: 100px;
     }
     .text-box,
     .line-1 {
@@ -27,7 +27,9 @@
         left: 13px;
     }
     .back-vid {
-        width: 190%;
+        width: 250%;
+        position: relative;
+        right: 50px;
     }
     .text-box,
     .line-1 {
@@ -52,5 +54,11 @@
     }
     .btn {
         width: 50%;
+    }
+
+    .btn a {
+        position: relative;
+        right: 12px;
+        font-size: 20px;
     }
 }
