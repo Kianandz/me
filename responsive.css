@@ -29,7 +29,8 @@
     .back-vid {
         width: 280%;
         position: relative;
-        right: 120px;
+        right: 240px;
+        bottom: 150px;
     }
     .text-box,
     .line-1 {
