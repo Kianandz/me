@@ -27,9 +27,9 @@
         left: 13px;
     }
     .back-vid {
-        width: 250%;
+        width: 280%;
         position: relative;
-        right: 15px;
+        right: 10px;
     }
     .text-box,
     .line-1 {
@@ -58,7 +58,7 @@
 
     .btn a {
         position: relative;
-        right: 25px;
+        right: 23px;
         font-size: 16px;
     }
 }
