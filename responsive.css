@@ -4,7 +4,7 @@
         top: 7px
     }
     .back-vid {
-        width: 120%;
+        width: 280%;
         position: relative;
         right: 100px;
     }
@@ -22,14 +22,18 @@
 }
 
 @media screen and (max-width: 480px) {
+    .container {
+        position: relative;
+        right: 4px;
+    }
     .left-co {
         position: absolute;
         left: 13px;
     }
     .back-vid {
-        width: 280%;
+        width: 380%;
         position: relative;
-        right: 180px;
+        right: 120px;
     }
     .text-box,
     .line-1 {

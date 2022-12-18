@@ -15,7 +15,7 @@
 .left-co {
     display: block;
     position: absolute;
-    width: 826px;
+    width: 96.5%;
     height: 749px;
     left: 22px;
     top: 13px;
@@ -26,14 +26,15 @@
 
 .back-vid video{
     display: block;
-    width: 162%;
+    width: 120%;
     position: relative;
-    right: 283px;
+    right: 278px;
+    bottom: 90px;
     user-select: none;
     pointer-events: none;
     filter: contrast(1.3);
     z-index: -1;
-    opacity: 30%;
+    opacity: 40%;
 }
 
 .text-box {
@@ -61,13 +62,21 @@
     color: white;
 }
 
+.text-box,
+.line-1 {
+    display: none;
+}
+
 .right-co {
     display: block;
     width: 538px;
-    height: 749px;
+    height: 579px;
     position: absolute;
-    right: 22px;
-    top: 13px;
+    right: 50%;
+    left: 50%;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%,-50%);
     overflow: hidden;
 }
 
@@ -87,7 +96,7 @@
     position: absolute;
     left: 50%;
     right: 50%;
-    top: 35%;
+    top: 25%;
     transform: translate(-50%, -50%);
     margin-top: 25px;
     border-radius: 50%;
@@ -97,7 +106,7 @@
     color: white;
     text-align: center;
     position: relative;
-    top: 63%;
+    top: 65%;
     font-size: 30px;
     margin-top: 25px;
 }
@@ -111,10 +120,11 @@
     position: relative;
     top: 40px;
     overflow: hidden;
-    border-bottom: 1px solid white;
+    /* border-bottom: 1px solid white; */
 }
 
 .multi-link h2 {
+    display: none;
     text-align: center;
     margin-top: 15px;
     color: white;
